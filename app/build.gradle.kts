@@ -57,10 +57,6 @@ dependencies {
     implementation(libs.hilt.android)
     ksp(libs.hilt.android.compiler)
 
-    // Coil
-    implementation(libs.coil)
-    implementation(libs.coil.network.okhttp)
-
     // Network - Okhttp & Retrofit
     implementation(libs.okhttp)
     implementation(libs.logging.interceptor)
