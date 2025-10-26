@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kolsa_navigation"
+    app:startDestination="@id/workoutListFragment">
+
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.example.kolsatestapp.fragments.video.VideoFragment"
+        android:label="fragment_video"
+        tools:layout="@layout/fragment_video" />
+    <fragment
+        android:id="@+id/workoutListFragment"
+        android:name="com.example.kolsatestapp.fragments.workouts.WorkoutListFragment"
+        android:label="fragment_workout_list"
+        tools:layout="@layout/fragment_workout_list" >
+
+        <action
+            android:id="@+id/action_workoutListFragment_to_videoFragment"
+            app:destination="@id/videoFragment" />
+
+    </fragment>
+</navigation>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KolsaTestApp</string>
+    <string name="network_time_out_exception">На сервере ведутся технические работы</string>
+    <string name="double_tap">Нажмите еще раз для выхода</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
